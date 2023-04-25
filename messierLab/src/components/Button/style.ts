@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 export const Text = styled.button`
     font-family: ${({theme}) => theme.FONT_FAMILY.BOLD};

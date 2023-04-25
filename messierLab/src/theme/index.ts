@@ -1,29 +1,26 @@
 export default {
-    Colors: {
-        BLACK100:'#121214',
-        BLACK900:'#000000',
-        GRAY100:'#E1E1E6',
-        GRAY800:'#202024',
-        GRAY900:'#7C7C8A',
-        CYAN400:'#81D8F6',
-        CYAN500:'#61DAFB',
-        GREEN:'#34A853',
-        BLUE:'#4285F4',
-    },
-    Font_Family:{
-        REGULAR:'Inter_400Regular',
-        SEMI_BOLD:'Inter_600SemiBold',
-        BOLD:'Inter_700Bold',
-    },
-    Font_Size:{
-        SM: 14,
-        MD: 16,
-        LG: 18
-    },
-    Font_SizeTitle:{
-        SM: 18,
-        MD: 20,
-        LG: 28,
-        XL: 32
-    }
-}
+	colors: {
+		black100:"#121214",
+		black900:"#000000",
+		gray00:"#E1E1E6",
+		gray800:"#202024",
+		gray900:"#7C7C8A",
+		cyan400:"#81D8F6",
+		cyan500:"#61DAFB",
+		green:"#34A853",
+		blue:"#4285F4", 
+	},
+	fontFamily:{
+		regular:"Inter_400Regular",
+		semibold:"Inter_600SemiBold",
+		bold:"Inter_700Bold",
+	},
+	fontSize:{
+		xs:  14,
+		sm:  16,
+		md:  18,
+		lg:  20,
+		xl:  24,
+		xxl: 32,
+	}
+};

@@ -1,10 +1,9 @@
-import {Container} from './styles'
+import {Container} from "./styles";
 
 export function Login(){
-    return (
-        <Container>
-            
-        </Container>
-    )
-
+	return(
+        <>
+            <h1>Hello World</h1>
+        </>
+    );
 }
