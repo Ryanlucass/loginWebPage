@@ -1,4 +1,4 @@
-export default {
+const theme = {
 	colors: {
 		black100:"#121214",
 		black900:"#000000",
@@ -24,3 +24,12 @@ export default {
 		xxl: 32,
 	}
 };
+
+export type HeadingProps = {
+	color? : keyof typeof theme.colors
+	fontSize?: keyof typeof theme.fontSize
+	fontWeight?: 400 | 600 | 700
+	level?: 1 | 2 | 3 | 4 | 5 | 6 
+}
+
+
