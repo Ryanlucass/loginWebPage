@@ -1,8 +1,8 @@
-const theme = {
+export const Theme = {
 	colors: {
 		black100:"#121214",
 		black900:"#000000",
-		gray00:"#E1E1E6",
+		gray100:"#E1E1E6",
 		gray800:"#202024",
 		gray900:"#7C7C8A",
 		cyan400:"#81D8F6",
@@ -25,9 +25,12 @@ const theme = {
 	}
 };
 
+export type ThemeColors =  typeof Theme.colors;
+
+
 export type HeadingProps = {
-	color? : keyof typeof theme.colors
-	fontSize?: keyof typeof theme.fontSize
+	color? : keyof typeof Theme.colors
+	fontSize?: keyof typeof Theme.fontSize
 	fontWeight?: 400 | 600 | 700
 	level?: 1 | 2 | 3 | 4 | 5 | 6 
 }
