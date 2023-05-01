@@ -25,8 +25,8 @@ export const Theme = {
 	}
 };
 
-export type ThemeColors =  typeof Theme.colors;
-
+export type ThemeColors = keyof typeof Theme.colors;
+export type FontSizes = keyof typeof Theme.fontSize;
 
 export type HeadingProps = {
 	color? : keyof typeof Theme.colors

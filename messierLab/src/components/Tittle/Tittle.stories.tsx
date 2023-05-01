@@ -1,13 +1,13 @@
 import {Meta, StoryObj} from "@storybook/react";
-import {Text, TextProps} from ".";
+import {Title, TittleProps} from ".";
 
 export default {
-    title: "Components/Text",
-    component: Text,
+    title: "Components/Title",
+    component: Title,
     args: {
         children: "Lorem impsum dolor",
-        size: "lg"
+        size: "xxl"
     },
-} as Meta<TextProps>;
+} as Meta<TittleProps>;
 
 export const Default: StoryObj = {};
